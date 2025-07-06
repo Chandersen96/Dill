@@ -30,7 +30,7 @@
         button {
             padding: 10px 20px;
             background-color: #4CAF50;
-            color: white;
+            color: red;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -44,28 +44,28 @@
     <h1>Welcome to the Birthday Message</h1>
     <p>Answer the following questions to see the message:</p>
     <form id="quiz">
-        <!-- Replace [Your question 1] with your first question -->
+        <!-- Replace [what i love to call you?] with your first question -->
         <label for="q1">Question 1: [Your question 1]</label>
         <input type="text" id="q1" name="q1" placeholder="Enter answer"><br><br>
-        <!-- Replace [Your question 2] with your second question -->
+        <!-- Replace [What is my medicine from you?] with your second question -->
         <label for="q2">Question 2: [Your question 2]</label>
         <input type="text" id="q2" name="q2" placeholder="Enter answer"><br><br>
-        <!-- Replace [Your question 3] with your third question -->
+        <!-- Replace [On which date you came into my life?] with your third question -->
         <label for="q3">Question 3: [Your question 3]</label>
         <input type="text" id="q3" name="q3" placeholder="Enter answer"><br><br>
         <button type="button" onclick="checkAnswers()">Submit</button>
     </form>
     <div id="message">
-        <!-- Replace [Your personalized message] with your birthday wish -->
-        <h2>Happy Birthday!</h2>
+        <!-- Replace [Yoy said i made you addicted to my food but what about you? You made me addicted to your kind heart, your pure soul, your nature, your smile jisko dekhe bina mai adhura sa rehta hun. ab to subah sham rehta hai tumhara hi khyal. sunke naam tera ho jata hun mai laal. Dekh kar mere chare par blush kar dete hai nisha or aman ched ched kar mera bura haal. Tere liye sab kuch karne ka karta hai maan. Dillon dimaag par chai ho tum. tmhari ek hasin k liye kar sakta hun kuch bhi. zamana chae kitni bhi karle koshish tumhe rulane ya satane ki par mai khada hun unke aur tumhare beech. Tere chere par vo shocking khusi or smile ki vehj ban bankar dill ko bahut sukoon mila. Hamesha chata hun tujhe sab dena aur karunga puri koshish ki hamesha kar paaun isse puraa. Kabhi bhi tu hichkichana maat chahe ho milna, ya kuch khana ya kuch bhi ho khul k bol dena kisi bhi time kisi bhi jagh mai puri koshish karunga usee puraa karne ki meri Queeny. ] with your birthday wish -->
+        <h2>Happy Birthday MY QUEENY!</h2>
         <p>[Your personalized message]</p>
     </div>
     <script>
         function checkAnswers() {
             // Replace [Answer 1], [Answer 2], [Answer 3] with the correct answers
-            var correctQ1 = "[Answer 1]";
-            var correctQ2 = "[Answer 2]";
-            var correctQ3 = "[Answer 3]";
+            var correctQ1 = "[Queeny]";
+            var correctQ2 = "[Your Smile]";
+            var correctQ3 = "[15/06/2025]";
             
             var userQ1 = document.getElementById('q1').value.trim();
             var userQ2 = document.getElementById('q2').value.trim();
